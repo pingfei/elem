@@ -80,6 +80,7 @@
         </a>
       </li>
     </ul>
+    <div @click="toHome">to home</div>
   </div>
 </template>
 
@@ -89,6 +90,11 @@ export default {
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
+    }
+  },
+  methods: {
+    toHome () {
+      this.$router.push('/home')
     }
   }
 }
