@@ -58,7 +58,7 @@ export default {
         top: offsetTop,
         behavior: 'instant'
       })
-      
+
       // 语法
       // window.scrollTo(x-coord,y-coord )
 
