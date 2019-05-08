@@ -1,7 +1,7 @@
 <template>
   <div class="_tabbar">
     <div>
-      <img src="" alt="">
+      <img src="" alt="">asdfasdfsaf
     </div>
   </div>
 </template>
@@ -19,5 +19,6 @@ export default {
   left: 0;
   width: 100%;
   height: 50px;
+  background: #ddd;
 }
 </style>
